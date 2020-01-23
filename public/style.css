@@ -1,0 +1,282 @@
+*  /*default settings*/
+{
+    margin:0;
+    padding:0;
+}
+
+
+/*navigation bar*/
+#nav-bar{
+    position:sticky;
+    top:0;
+    z-index:10;
+}
+
+.navbar-brand img{
+    height:40px;
+}
+
+#nav-bar ul li{
+    padding: 4px 5px;
+}
+
+.nav-link:hover{
+    font-size:1rem;
+    font-weight: bold
+}
+
+.navbar-toggler
+{
+    border:none!important;
+}
+.nav-link
+{
+    color:#555!important;
+    font-weight:600;
+    font-size:15px;
+}
+
+
+
+
+
+/*about*/
+#aboutus
+{
+    padding-top:50px ;
+   padding-bottom:50px;
+    color:black;
+}
+
+.about-content
+{
+    padding:10px;
+}
+
+/*progress bar*/
+
+.skills-bar p
+{
+    padding-top:50px;
+font-weight:bold;
+margin-bottom:5px
+}
+
+.progress-bar
+{
+    border-radius:16px;
+    margin:0;
+  
+}
+
+.progress{
+ 
+    margin-bottom:16px
+}
+/*
+#slider .img-container{
+    background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url('city.jpg');
+    background-size: cover;
+    background-position: center;
+  
+
+}
+*/
+
+/* services style*/
+
+#services
+{
+    background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url('assets/imgs/city.jpg');
+    background-size: cover;
+    background-position: center;
+   padding-top:50px;
+   padding-bottom:50px;
+    
+}
+#services h1
+{
+text-align:center;
+padding:15px;
+color:#efefef !important;
+}
+
+#services h1::after /* Styling for line after hrading*/
+{
+    content:'';
+    background:white;
+   display:block;
+    height:3px;
+    width:1000px;
+    margin:20px auto 5px;
+   
+}
+
+#services b
+{
+text-align:center;
+padding:15px;
+color: #fdf5e6!important; 
+}
+
+#services h6
+{
+text-align:center;
+padding:15px;
+color:#efefef !important; 
+}
+
+/*our team*/
+#ourteam h1{
+   
+    text-align:center;
+    padding:15px;
+
+}
+#ourteam h1::after{
+    content:'';
+    background:black;
+    height:3px;
+    display:block;
+    width:1000px;
+    margin:20px auto 5px;
+}
+
+.img-box
+{
+    margin:10px;
+    border:3px solid black;
+}
+
+
+/*testimonials css*/
+
+#testimonials 
+{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.493),rgba(0,0,0,0.8)),url('assets/imgs/city.jpg');
+    background-size: cover;
+    background-position: center;
+text-align:center;
+padding-top:50px ;
+padding-bottom:50px;
+font-weight:600
+}
+
+
+#testimonials h1
+{
+    
+    text-align:center;
+    padding:15px;
+    color:white!important;
+}
+#testimonials h1::after
+{
+    content:'';
+    background:#efefef;
+    display:block;
+    height:3px;
+    width:1000px;
+    margin:20px auto 5px;
+   
+}
+#testimonials .row
+{
+    margin-top:40px;
+}
+.col-md-4
+{
+    margin:40px auto;
+ 
+}
+
+.profile
+{
+  
+    padding:20px ;
+    background-color: #efefef;
+  
+}
+.user
+{
+    width:120px;
+    height:120px;
+    border-radius:70%;
+    top:-60px;
+   
+    position: relative;
+
+
+border:5px solid grey;
+}
+
+
+
+blockquote
+{
+    font-size:20px;
+    line-height:28px;   
+}
+
+#testimonials span{
+    color:grey;
+}
+
+
+/*contacts*/
+#contacts h1::after{
+content: "";
+background: white;
+display: block;
+height: 3px;
+width: 1000px;
+margin:20px auto 5px;
+}
+
+
+
+
+/*Conatact form*/
+#contact
+{
+    background-image:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url("assets/imgs/city.jpg");
+    background-size:cover;
+    background-position: center;
+    padding:50px 50px;
+    color:white;
+    text-align:center;
+    
+  
+}
+
+
+#contact h1::after
+{
+    content:'';
+    background:white;
+   display:block;
+    height:3px;
+    width:1000px;
+    margin:20px auto 5px;
+   
+}
+
+
+
+
+.contact-form
+{
+    padding:50px 50px;
+}
+
+.form-group
+{
+    border-radius: none!important;
+}
+
+#contact h2
+{
+padding:40px 40px;
+}
+
+
